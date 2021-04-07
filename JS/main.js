@@ -1,8 +1,5 @@
 
 let form = document.forms.PIB;
-let elLast = document.querySelector('.lastname');
-let elFirst = document.querySelector('.firstname');
-let elMiddle = document.querySelector('.middlename');
 let card = document.querySelector('.card');
 
 form.addEventListener('submit', (ev) => {
